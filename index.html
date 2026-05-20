@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Emoji Drawer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎨 Emotion Emoji Drawer</h1>
+            <p>Express your feelings through drawing</p>
+        </header>
+
+        <div class="main-content">
+            <div class="controls">
+                <div class="emotion-selector">
+                    <label for="emotion">How are you feeling?</label>
+                    <select id="emotion">
+                        <option value="happy">😊 Happy</option>
+                        <option value="sad">😢 Sad</option>
+                        <option value="angry">😠 Angry</option>
+                        <option value="surprised">😲 Surprised</option>
+                        <option value="cool">😎 Cool</option>
+                        <option value="love">😍 In Love</option>
+                        <option value="confused">😕 Confused</option>
+                        <option value="tired">😴 Tired</option>
+                    </select>
+                </div>
+
+                <div class="drawing-tools">
+                    <label for="brushSize">Brush Size:</label>
+                    <input type="range" id="brushSize" min="1" max="20" value="5">
+                    <span id="brushSizeValue">5</span>px
+
+                    <label for="brushColor">Brush Color:</label>
+                    <input type="color" id="brushColor" value="#000000">
+                </div>
+
+                <div class="buttons">
+                    <button id="clearBtn" class="btn btn-secondary">Clear Canvas</button>
+                    <button id="downloadBtn" class="btn btn-primary">Download Emoji</button>
+                </div>
+            </div>
+
+            <div class="canvas-container">
+                <canvas id="canvas"></canvas>
+                <div class="emotion-display" id="emotionDisplay">
+                    Your emotion will appear here
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Created with 💙 | Express yourself through art</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
