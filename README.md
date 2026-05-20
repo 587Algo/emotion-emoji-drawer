@@ -1,4 +1,4 @@
-# 🎨 Emotion Emoji Drawer
+# 🎨 Emora
 
 A fun and interactive web application where you can draw emojis based on your current feelings and emotions!
 
@@ -79,4 +79,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-Created with 💙 | Express yourself through art!
+Created with 💙 | Emora - Express yourself through art!
